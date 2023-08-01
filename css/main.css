@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: serif;
+  background-color: aliceblue;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+}
+.nav .left {
+  display: flex;
+  align-items: center;
+}
+.nav .left .notepng {
+  height: 35px;
+  width: auto;
+  margin: 2px 20px;
+}
+.nav .left .name {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.firstSection {
+  height: 43px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.firstSection .addD {
+  display: flex;
+  align-items: center;
+  margin-right: 2.5rem;
+}
+.firstSection .add_img {
+  height: 27px;
+  width: auto;
+  margin-right: 0.6rem;
+}
+.firstSection .add_img:hover {
+  height: 30px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  background-color: #fff;
+  margin: 30px 20px;
+  height: 200px;
+  width: 300px;
+  overflow-y: scroll;
+  margin-top: 2rem;
+  position: relative;
+}
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 300px;
+  width: 93%;
+  padding: 10px;
+}
+.note .operation {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+}
+.note .edit {
+  height: 22px;
+  width: auto;
+  margin-right: 0.5rem;
+}
+.note .edit:hover {
+  height: 24px;
+}
+.note .delete {
+  height: 22px;
+  width: auto;
+  margin-right: 0.4rem;
+}
+.note .delete:hover {
+  height: 24px;
+}
+.note .hidden {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
